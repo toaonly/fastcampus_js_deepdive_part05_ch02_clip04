@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-0 p-0;
+  @apply bg-slate-800 text-white;
+  @apply w-screen h-screen;
+  @apply text-base;
+}
+
+#app {
+  @apply flex justify-center;
+  @apply py-8;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "fastcampus_js_deepdive_part05_ch02_clip02",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest test"
+  },
+  "devDependencies": {
+    "@vitest/browser": "^1.2.1",
+    "autoprefixer": "^10.4.17",
+    "happy-dom": "^13.3.1",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8",
+    "vitest": "^1.2.1",
+    "webdriverio": "^8.29.1"
+  }
+}
