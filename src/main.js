@@ -23,7 +23,7 @@ function renderApp() {
 
   const form = document.querySelector('#form')
   const currenciesListContainer = document.querySelector('#currencies-list-container')
-  const krw = form.querySelector('[name="krw"]')
+  const krw = form.querySelector('input[name="krw"]')
 
   form.addEventListener('submit', async e => {
     e.preventDefault()
