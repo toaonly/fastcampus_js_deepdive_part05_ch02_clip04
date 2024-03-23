@@ -11,7 +11,7 @@ function renderApp() {
       </header>
       <form id="form">
         <div class="flex items-center gap-2 py-4">
-          <input class="p-2 flex-1 bg-transparent border rounded-sm border-white/50 text-right" type="number" name="input-krw" placeholder="원화 입력" />
+          <input type="number" name="input-krw" placeholder="원화 입력" class="p-2 flex-1 bg-transparent border rounded-sm border-white/50 text-right" />
           <button class="bg-sky-500 active:bg-sky-600 hover:bg-sky-400 px-2 py-2 rounded-sm" type="submit">변환(Enter)</button>
         </div>
       </form>
